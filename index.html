@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="mr" class="locked">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday, Gaythri Mam ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="sky" aria-hidden="true"></div>
+
+<!-- 1. Welcome -->
+<section id="welcome">
+  <div class="balloons" aria-hidden="true">
+    <i style="--c:#f48fb1;--x:8%;--d:0s"></i><i style="--c:#b39ddb;--x:24%;--d:1.2s"></i>
+    <i style="--c:#ffd98a;--x:70%;--d:.6s"></i><i style="--c:#f8bbd0;--x:86%;--d:1.8s"></i>
+    <i style="--c:#ce93d8;--x:46%;--d:2.4s"></i>
+  </div>
+  <div class="welcome-inner">
+    <p class="whisper">एका कृतज्ञ विद्यार्थ्याकडून, मनापासून</p>
+    <h1>Happy Birthday,<br>Gaythri Mam <span class="heart">❤️</span></h1>
+    <button id="openBtn" class="btn gold">Open Your Special Surprise 🎁</button>
+  </div>
+</section>
+
+<button id="musicBtn" class="music" aria-label="Music on or off" hidden>🎵 <span>ON</span></button>
+
+<main id="site" hidden>
+
+  <!-- 2. Photo -->
+  <section class="block hero">
+    <div class="arch-wrap">
+      <div class="arch"><img src="images/gaitri.jpg" alt="Gaythri Mam"></div>
+    </div>
+    <h2 class="script">गायत्री मॅम</h2>
+    <p class="sub">The teacher who changed my journey</p>
+  </section>
+
+  <section class="block">
+    <h2 class="title">Memories with Mam 📸</h2>
+    <div class="gallery">
+      <figure><img src="images/memory1.jpg" alt="Memory 1"><span>Add photo</span></figure>
+      <figure><img src="images/memory2.jpg" alt="Memory 2"><span>Add photo</span></figure>
+      <figure><img src="images/memory3.jpg" alt="Memory 3"><span>Add photo</span></figure>
+      <figure><img src="images/memory4.jpg" alt="Memory 4"><span>Add photo</span></figure>
+      <figure><img src="images/memory5.jpg" alt="Memory 5"><span>Add photo</span></figure>
+      <figure><img src="images/memory6.jpg" alt="Memory 6"><span>Add photo</span></figure>
+    </div>
+  </section>
+
+  <!-- 3. Letter -->
+  <section class="block" id="letterSec">
+    <h2 class="title">एक पत्र, तुमच्यासाठी ❤️</h2>
+    <article class="letter" id="letter" aria-live="polite"></article>
+    <button id="skipType" class="btn ghost">पूर्ण पत्र वाचा</button>
+  </section>
+
+  <!-- Emotional dialogue -->
+  <section class="block" id="saySec">
+    <h2 class="title">मनातलं काही... 💌</h2>
+    <div class="says">
+      <p class="say">“मॅम, तुम्ही नसत्या तर कदाचित मी स्वतःवर विश्वासच ठेवला नसता.”</p>
+      <p class="say">जेव्हा मला वाटायचं की मला जमणार नाही, तेव्हा तुम्ही हसून म्हणायच्या,<br>“तू नक्की करू शकतोस.”</p>
+      <p class="say">आज त्या एका वाक्यामुळेच मी इथवर पोहोचलो आहे.</p>
+      <p class="say">तुमचं शिकवणं फक्त अभ्यासापुरतं नव्हतं, ते आयुष्यभर पुरणारं होतं. ❤️</p>
+    </div>
+  </section>
+
+  <!-- 4. Thanks -->
+  <section class="block">
+    <h2 class="title">Thank You 💖</h2>
+    <div class="cards">
+      <div class="card"><b>🌸</b><p>Thank you for teaching me.</p></div>
+      <div class="card"><b>🌟</b><p>Thank you for believing in me.</p></div>
+      <div class="card"><b>🔥</b><p>Thank you for motivating me.</p></div>
+      <div class="card"><b>🎓</b><p>Thank you for helping me clear my 10th Board Exams.</p></div>
+    </div>
+  </section>
+
+  <!-- 5. Cake -->
+  <section class="block" id="cakeSec">
+    <h2 class="title">Your Birthday Cake 🎂</h2>
+    <div class="cake" id="cake">
+      <div class="candles">
+        <div class="candle"><i class="flame"></i></div>
+        <div class="candle"><i class="flame"></i></div>
+        <div class="candle"><i class="flame"></i></div>
+      </div>
+      <div class="tier t3"><u></u></div>
+      <div class="tier t2"><u></u></div>
+      <div class="tier t1"><u></u></div>
+      <div class="plate"></div>
+    </div>
+    <button id="wishBtn" class="btn gold">Make a Wish ✨</button>
+    <p id="wishMsg" class="wish" hidden>May all your wishes come true, Mam!</p>
+  </section>
+
+  <!-- 7. Final -->
+  <section class="block final" id="finalSec">
+    <p id="finalText" class="final-text">मॅम, तुम्ही मला फक्त शिकवले नाही, तर स्वतःवर विश्वास ठेवायला शिकवले. माझ्या आयुष्यातील तुमचे स्थान नेहमीच खास राहील. धन्यवाद मॅम! ❤️</p>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
