@@ -10,7 +10,7 @@ const rand = (a, b) => a + Math.random() * (b - a);
     if (txt) s.textContent = txt;
     s.style.left = rand(0, 100) + '%';
     s.style.setProperty('--dx', rand(-120, 120) + 'px');
-    s.style.animationDuration = life + 's';
+    s.style.animationDuration = life + 's'; 
     s.style.animationDelay = -rand(0, life) + 's';
     if (cls === 'star') { s.style.top = rand(0, 100) + '%'; }
     sky.appendChild(s);
